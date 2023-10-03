@@ -36,10 +36,15 @@ Anahtar dosyasını bilgisayarımıza indirmek için görev kartındaki `Get key
 ```console
 sqd up
 
+```
+
+```console
 npm ci
 sqd build
 sqd migration:apply
+```
 
+```console
 sqd run .
 ```
 `-Komut şuna benzer satırlar çıkarmalıdır:`
