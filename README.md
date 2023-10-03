@@ -18,18 +18,22 @@ npm install --global @subsquid/cli@latest
 sqd --version
 ```
 
-yanıt olarak benzeri vermeli. => @subsquid/cli/2.5.0 linux-x64 node-v20.5.1
+yanıt olarak benzeri vermeli. => `@subsquid/cli/2.5.0 linux-x64 node-v20.5.1`
 
 
 
 
 `-Klasör oluşturmak için devam edelim`
 
-Dizin adını değiştirmek isterseniz my-single-proc-squid  2 yeri değiştirin.
+Klasör adını değiştirmek isterseniz `my-single-proc-squid`  2 yeri değiştirin.
 ```console
 sqd init my-single-proc-squid -t https://github.com/subsquid-quests/single-chain-squid
 cd my-single-proc-squid
+```
 
+Anahtar dosyasını bilgisayarımıza indirmek için görev kartındaki `Get key` basın. Ahatar dosyamız `singleProc.key` indirilecek, dosyamızı Mobax üzerinden `./query-gateway/keys` klasörüne süreki bırak yaparak kaydedip devam edelim. 
+
+```console
 sqd up
 
 npm ci
@@ -58,3 +62,7 @@ sqd down
 
 ```
 
+`Göre& Ödül Bilgisi`
+| Category         | Skill Level                          | Time required (minutes) | Max Participants | Reward                              | Status |
+| ---------------- | ------------------------------------ | ----------------------- | ---------------- | ----------------------------------- | ------ |
+| Squid Deployment | $\textcolor{green}{\textsf{Simple}}$ | ~40                     | -                | $\textcolor{red}{\textsf{750tSQD}}$ | open   |
