@@ -31,7 +31,7 @@ sqd init my-single-proc-squid -t https://github.com/subsquid-quests/single-chain
 cd my-single-proc-squid
 ```
 
-Anahtar dosyasını bilgisayarımıza indirmek için görev kartındaki `Get key` basın. Ahatar dosyamız `singleProc.key` indirilecek, dosyamızı Mobax üzerinden `./query-gateway/keys` klasörüne süreki bırak yaparak kaydedip devam edelim. 
+Anahtar dosyasını bilgisayarımıza indirmek için görev kartındaki `Get key` basın. Ahatar dosyamız `singleProc.key` indirilecek, dosyamızı Mobax üzerinden `./query-gateway/keys` klasörüne sürükle bırak yaparak kaydedip devam edelim. 
 
 ```console
 sqd up
