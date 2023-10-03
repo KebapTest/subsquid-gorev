@@ -1,4 +1,6 @@
-# subsquid-gorev
+# subsquid-gorev (Deploy a single processor squid)
+
+Gereksinimleri Yükle: Node.js, Docker, Git.
 
 https://app.subsquid.io/network-dashboard giriş yaptıktan karşımıza görevler gelecektir.(gelmediyse sağ üstten "Switch to network" diyelim.)
 
@@ -18,7 +20,7 @@ npm install --global @subsquid/cli@latest
 sqd --version
 ```
 
-yanıt olarak benzeri vermeli. => `@subsquid/cli/2.5.0 linux-x64 node-v20.5.1`
+yanıt olarak benzeri vermeli( çıktınızda verisyon farklı olabilir devam). => `@subsquid/cli/2.5.0 linux-x64 node-v20.5.1`
 
 
 
@@ -43,7 +45,7 @@ npm ci
 sqd build
 sqd migration:apply
 ```
-
+` sqd başlatalım`
 ```console
 sqd run .
 ```
@@ -65,4 +67,5 @@ sqd run .
 ```console
 sqd down
 ```
-
+4 adet görev var görevleri hepsi birbirinin benzeri. Klasör oluşturma ve keyler farklı sadece. 
+4 görevi bitirdikten sonra 1k ödülünüz hayırlı olsun :))
