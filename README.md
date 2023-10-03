@@ -61,11 +61,13 @@ sqd run .
 [processor] 09:56:08 INFO  sqd:processor 6016939 / 17743832, rate: 5506 blocks/sec, mapping: 304 blocks/sec, 182 items/sec, eta: 36m
 ```
 
-10-15 dakika içinde senkronize olmasını bekleyelim.(Siteden kontrol edin) 
-
+10-15 dakika içinde senkronize olmasını bekleyelim.(Siteden kontrol edin) %100 olunca verify edin.
 `-İşiniz bittiğinde Ctrl-C ile durdurma ve kaldırma işlemini yapalım.`
 ```console
 sqd down
 ```
 4 adet görev var görevleri hepsi birbirinin benzeri. Klasör oluşturma ve keyler farklı sadece. 
+
+> ![gorev](https://user-images.githubusercontent.com/53430833/272406652-257d15d9-22b5-4894-9aeb-ba3f930cd479.jpg)
+
 4 görevi bitirdikten sonra 1k ödülünüz hayırlı olsun :))
